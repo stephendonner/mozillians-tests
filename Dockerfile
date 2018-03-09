@@ -13,7 +13,7 @@ RUN apt-get update \
 WORKDIR /src
 COPY pipenv.txt /src
 
-RUN curl -fsSL https://bootstrap.pypa.io/get-pip.py | python2.7 \
+RUN curl -fsSL https://bootstrap.pypa.io/get-pip.py | python2.7
 RUN pip install -r pipenv.txt
 
 ENV FIREFOX_VERSION=58.0.1

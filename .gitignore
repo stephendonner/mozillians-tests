@@ -2,5 +2,4 @@
 .DS_Store
 .pytest_cache
 *.pyc
-Pipfile.lock
 results/
